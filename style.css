@@ -6,3 +6,57 @@
     color: hsl(228, 45%, 44%); 
 }
 
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left, .trial-label, .submit-btn {
+    color: white;
+}
+
+.left {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.left h1 {
+    font-size: 55px;
+}
+
+.trial-label {
+    background-color: hsl(248, 32%, 49%);
+}
+
+.form-content {
+    background-color: white;
+    height: 570px;
+    width: 650px;
+    border-radius: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: 100%; 
+  }
+  
+
+input, label {
+    display: block;
+}
+
+.submit-btn {
+    background-color: hsl(154, 59%, 51%);
+}
