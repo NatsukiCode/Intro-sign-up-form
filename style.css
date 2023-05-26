@@ -39,19 +39,29 @@ body {
 
 .trial-label {
     background-color: hsl(248, 32%, 49%);
+    width: 540px;
+    height: 60px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
 }
 
 .form-content {
     background-color: white;
-    height: 570px;
-    width: 650px;
+    height: 410px;
+    width: 460px;
     border-radius: 15px;
+    padding: 40px;
 }
 
-input[type="text"], input[type="email"], input[type="submit"] {
-    width: 100%; 
-  }
-  
+.form-content input {
+    width: 450px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 
 input, label {
     display: block;
@@ -59,4 +69,6 @@ input, label {
 
 .submit-btn {
     background-color: hsl(154, 59%, 51%);
+    border: none;
+    
 }
