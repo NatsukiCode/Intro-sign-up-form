@@ -18,12 +18,10 @@ body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 
-.left, .trial-label, .submit-btn {
+.left, .trial-label, .submit {
     color: white;
 }
 
@@ -92,7 +90,7 @@ body {
 }
 
 
-.submit-btn {
+.submit {
     background-color: hsl(154, 59%, 51%);
     border-radius: 5px;
     border: none;
@@ -112,3 +110,14 @@ body {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .error-message.active {
+    display: block;
+  }
