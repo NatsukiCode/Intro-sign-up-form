@@ -1,5 +1,6 @@
 .attribution { 
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
 
 .attribution a { 
@@ -21,22 +22,22 @@ body {
     align-items: center; 
 }
 
-.left, .trial-label, .submit {
+.left-content, .trial-label, .submit {
     color: white;
 }
 
-.left {
+.left-content {
     font-size: 16px;
     margin-right: 30px;
 }
 
-.left h1 {
+.left-content h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 55px;
 }
 
-.right {
+.right-content {
     text-align: center;
     margin-left: 50px;
 }
@@ -55,7 +56,6 @@ body {
 
 .trial-label p {
      font-weight: 600;
-
 }
 
 .trial-label span {
@@ -68,7 +68,7 @@ body {
     box-shadow:0px 13px 1px -5px rgba(0, 0, 0, 0.2);
     width: 430px;
     border-radius: 15px;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 .form-content input {
@@ -79,7 +79,6 @@ body {
     border-radius: 5px;
     border: 1px solid #ccc;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 #firstName, #lastName, #email, #password {
@@ -111,6 +110,10 @@ body {
     font-weight: 700;
 }
 
+.input-container {
+    position: relative;
+}
+
 .error-message {
     display: none;
     color: hsl(0, 100%, 74%);
@@ -125,3 +128,12 @@ body {
   .error {
     border: 2px solid hsl(0, 100%, 74%)!important;
   }
+
+  .error-icon {
+    display: none;
+    position: absolute;
+    top: 65%;
+    right: 25px;
+    transform: translateY(-50%);
+  }
+  

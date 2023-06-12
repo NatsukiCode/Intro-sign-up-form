@@ -23,7 +23,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="left content">
+      <div class="left-content">
         <h1>
           Learn to code by<br />
           watching others
@@ -35,46 +35,83 @@
         </p>
       </div>
 
-      <div class="right content">
+      <div class="right-content">
         <div class="trial-label">
           <p>Try it free 7 days <span> then $20/mo. thereafter</span></p>
         </div>
         <div class="form-content">
-          <div id="myForm">
+          <div class="input-container">
             <input
               id="firstName"
               name="firstName"
               placeholder="First Name"
               required
             />
-            <div id="firstNameError" class="error-message" hidden></div>
 
+            <img
+              src="images/icon-error.svg"
+              alt="Error"
+              class="error-icon"
+              id="firstNameErrorIcon"
+            />
+          </div>
+
+          <div id="firstNameError" class="error-message" hidden></div>
+
+          <div class="input-container">
             <input
               id="lastName"
               name="lastName"
               placeholder="Last Name"
               required
             />
-            <div id="lastNameError" class="error-message" hidden></div>
 
+            <img
+              src="images/icon-error.svg"
+              alt="Error"
+              class="error-icon"
+              id="lastNameErrorIcon"
+            />
+          </div>
+
+          <div id="lastNameError" class="error-message" hidden></div>
+
+          <div class="input-container">
             <input
               id="email"
               name="email"
               placeholder="Email Address"
               required
             />
-            <div id="emailError" class="error-message" hidden></div>
 
+            <img
+              src="images/icon-error.svg"
+              alt="Error"
+              class="error-icon"
+              id="emailErrorIcon"
+            />
+          </div>
+          <div id="emailError" class="error-message" hidden></div>
+
+          <div class="input-container">
             <input
               id="password"
               name="password"
               placeholder="Password"
               required
             />
-            <div id="passwordError" class="error-message" hidden></div>
 
-            <button id="submitbtn" class="submit">CLAIM YOUR FREE TRIAL</button>
+            <img
+              src="images/icon-error.svg"
+              alt="Error"
+              class="error-icon"
+              id="passwordErrorIcon"
+            />
           </div>
+
+          <div id="passwordError" class="error-message" hidden></div>
+
+          <button id="submitbtn" class="submit">CLAIM YOUR FREE TRIAL</button>
 
           <div class="form-footer">
             <p>
