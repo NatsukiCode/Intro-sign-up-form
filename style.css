@@ -98,6 +98,11 @@ body {
     margin-top: 20px;
 }
 
+.submit:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .form-footer {
     font-size: 10px;
     font-weight: 500;
